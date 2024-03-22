@@ -36,9 +36,10 @@ function App() {
             <BehavioursBlock />
             <ActionBlock />
             <TradeBlock />
+            
           </div>
         </div>
-        
+
       </div>
     </div>
   );
