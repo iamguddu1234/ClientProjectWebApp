@@ -130,8 +130,8 @@ color: white;
     margin-bottom: 7px;
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 12px;
   }
   
@@ -140,11 +140,15 @@ color: white;
   }
 
   .componenet{
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: 5px;
-    width: 200px;
+    width: auto;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
+    color: white; /* Text color */
+    cursor: text; /* Cursor style */
 
   }
 

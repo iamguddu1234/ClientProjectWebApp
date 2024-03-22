@@ -14,7 +14,9 @@ import StatementView from "./StatementView";
 function App() {
   return (
     <div className={classes.mainBox}>
+
       <div className={classes.parentBox}>
+
         <div className={classes.mainView}>
           <div className={classes.subViewContainer}>
             <TopView />
@@ -28,12 +30,15 @@ function App() {
         <div className={classes.componentsView}>
           <div className={classes.componentsTitle}>Components</div>
 
-          <BasicBlock />
-          <IndicatorsBlock />
-          <BehavioursBlock />
-          <ActionBlock />
-          <TradeBlock />
+          <div className={classes.scrollView}>
+            <BasicBlock />
+            <IndicatorsBlock />
+            <BehavioursBlock />
+            <ActionBlock />
+            <TradeBlock />
+          </div>
         </div>
+        
       </div>
     </div>
   );

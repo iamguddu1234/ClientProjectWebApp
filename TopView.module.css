@@ -28,6 +28,8 @@
   background-color: #b8b8b8;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .test {
@@ -39,6 +41,8 @@
   background-color: #838280;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .topViewInner {
