@@ -1,7 +1,7 @@
 .basicBlock {
   margin-top: 10px;
   width: 90%;
-  background-color: var(--cardColor);
+  background-color: #313131;
   margin: 10px;
   border: 1px solid var(--borderColor);
   border-radius: 10px;
@@ -11,6 +11,8 @@
 .title {
   color: white;
   font-size: 14px;
+  margin-left: 7px;
+  font-weight: 500;
 }
 
 .whiteBoxContainer {
@@ -18,14 +20,21 @@
   margin-top: 10px;
   display: flex;
 }
+
+.whiteBoxContainer2main {
+  display: flex;
+  align-items: center;
+}
+
 .whiteBoxContainer2 {
   width: 100%;
   display: flex;
+  align-items: center;
 }
 
-.submenu {
+/* .submenu {
   display: flex;
-}
+} */
 
 .whiteBlock {
   background-color: white;
@@ -34,9 +43,12 @@
   justify-content: center;
   align-items: center;
   width: max-content;
-  margin-left: 5px;
-  margin-bottom: 5px;
-  padding: 8px;
+  margin-left: 7px;
+  margin-bottom: 7px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
   font-size: 12px;
 }
 
@@ -47,8 +59,8 @@
 }
 
 .createBtn {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
   padding-top: 6px;
   padding-bottom: 6px;
   border: 1px solid white;
@@ -59,26 +71,67 @@
   align-items: center;
   font-size: 12px;
 }
+.createBtn:hover {
+  cursor: pointer;
+}
 
-/* .editBox {
-   margin: 5px;
-      width: 95%;
-      height: 35px;
-      border-radius: 6px;
-      background-color: transparent;
-      color: white;
-      border: 1px solid white;
-    } */
-
-.showallBtn {
+.editBox {
   margin-left: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 1px solid white;
-  border-radius: 20px;
-  color: white;
+  width: 95%;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: white; /* Text color */
+  cursor: text; /* Cursor style */
+}
+
+.searchContainer {
+  width: 95%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 6px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.searchIcon {
+  margin-left: 10px;
+  color: white;
+}
+
+.editBox:focus {
+  /* padding-left: 8px;
+    padding-right: 8px; */
+  /* border-style: solid;
+  border-width: 1px; */
+  outline: none !important;
+  /* border-color: var(--cardBorderColorLight);
+  border-color: var(--cardBorderColor); */
+}
+
+.showallBtn {
+  margin-left: 7px;
+  margin-bottom: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
   font-size: 12px;
+}
+
+.whiteBlock:hover {
+  cursor: pointer;
+}
+.showallBtn:hover {
+  cursor: pointer;
 }

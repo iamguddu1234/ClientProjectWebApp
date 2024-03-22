@@ -9,7 +9,7 @@ function TopView() {
       </div>
 
       <div className={classes.topViewInner}>
-        <div className={classes.t1}>This is the demo text title</div>
+        <div className={classes.t1}>Building algorithmic for XAU/USD</div>
 
         <div className={classes.rightsideTopContainer}>
           <div className={classes.Bt1}>Add SetUp</div>
