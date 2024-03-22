@@ -1,0 +1,84 @@
+.basicBlock {
+  margin-top: 10px;
+  width: 90%;
+  background-color: var(--cardColor);
+  margin: 10px;
+  border: 1px solid var(--borderColor);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.title {
+  color: white;
+  font-size: 14px;
+}
+
+.whiteBoxContainer {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+}
+.whiteBoxContainer2 {
+  width: 100%;
+  display: flex;
+}
+
+.submenu {
+  display: flex;
+}
+
+.whiteBlock {
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createBtn {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+/* .editBox {
+ margin: 5px;
+    width: 95%;
+    height: 35px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  } */
+
+.showallBtn {
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}

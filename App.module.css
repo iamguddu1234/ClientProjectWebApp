@@ -1,0 +1,119 @@
+html {
+  /*Core color codes------global color codes #224C98 */
+  --themeColor: #373737;
+  --cardColor: #313131;
+  --borderColor: #b8b8b8;
+  --textColor: #ffffff;
+  --btnBg: #c5c5c5;
+  --textColor: #3b3b3b;
+}
+
+.mainBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parentBox {
+  width: 90%;
+  height: 100%;
+  background-color: var(--themeColor);
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  border: 1px solid var(--themeColor);
+}
+
+.mainView {
+  width: 70%;
+  height: 100vh;
+  background-color: var(--themeColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid white;
+}
+
+.statment1View {
+  width: 95%;
+  height: 200px;
+  background-color: darkblue;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.sTopView {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.stTitle {
+  margin-left: 10px;
+}
+
+.menu {
+  margin-right: 10px;
+}
+
+.statement2View {
+  width: 95%;
+  height: 200px;
+  background-color: darkblue;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.bottomView {
+  width: 95%;
+  display: flex;
+  background-color: var(--cardColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftsideContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.componentsView {
+  width: 30%;
+  max-height: 100vh;
+  background-color: #373737;
+  padding: 10px;
+}
+
+.componentsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* .scrollView{
+  width: 100vw;
+   height: 550px; 
+  overflow: scroll; 
+} */
+
+.scrollView {
+  width: 100%;
+}
+
+.maincontainer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
