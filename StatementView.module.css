@@ -1,6 +1,7 @@
 .statmentView {
     margin-top: 20px;
     width: 98%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +10,16 @@
   
   .statment1View {
     width: 100%;
-    height: 150px;
+    height: 190px;
+    background-color: #242328;
+    border: 1px solid #4a4a4a;
+    border-radius: 10px;
+  }
+
+  .statement2View {
+    margin-top: 10px;
+    width: 100%;
+    height: 190px;
     background-color: #242328;
     border: 1px solid #4a4a4a;
     border-radius: 10px;
@@ -40,6 +50,7 @@
   }
   
   .statmentDetails{
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,28 +104,8 @@ color: white;
   border-radius: 3px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
   
-  .statement2View {
-    margin-top: 10px;
-    width: 100%;
-    height: 150px;
-    background-color: #242328;
-    border: 1px solid #4a4a4a;
-    border-radius: 10px;
-  }
+
   
 
   .whiteBlock {
@@ -140,15 +131,21 @@ color: white;
   }
 
   .componenet{
+margin-right: 10px;
+    margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 5px;
-    width: auto;
+    width: 70%;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
     color: white; /* Text color */
     cursor: text; /* Cursor style */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
@@ -160,4 +157,35 @@ color: white;
     outline: none !important;
     /* border-color: var(--cardBorderColorLight);
     border-color: var(--cardBorderColor); */
+  }
+
+
+
+  @media screen and (max-width: 1000px) {
+
+
+  .MainView{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+  }
+
+  .statment1View {
+    /* height: 99%; */
+    /* margin-bottom: 10px; */
+  }
+
+  /* .statment2View {
+    height: auto;
+  } */
+
+  .statmentDetails{
+  }
+
+  .componenet{
+    margin-top: 2px;
+
+  }
+
   }

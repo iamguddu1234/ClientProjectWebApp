@@ -1,6 +1,8 @@
 import classes from "./StatementView.module.css";
 
 import { HiDotsVertical } from "react-icons/hi";
+import { MdModeEdit } from "react-icons/md";
+import { TiArrowSortedDown } from "react-icons/ti";
 
 function StatementView() {
   return (
@@ -19,7 +21,7 @@ function StatementView() {
             <div className={classes.timeFrame}>
               <div className={classes.topText}>Timeframe</div>
               <div className={classes.titleFrame}>3 Hours</div>
-              <HiDotsVertical className={classes.ArrowIcon} />
+              <TiArrowSortedDown className={classes.ArrowIcon} />
             </div>
 
             {/* <div className={classes.whiteBlock}>Less than</div> */}
@@ -27,7 +29,7 @@ function StatementView() {
             <div className={classes.timeFrame}>
               <div className={classes.topText}>Indicator</div>
               <div className={classes.titleFrame}>RSI</div>
-              <HiDotsVertical className={classes.ArrowIcon} />
+              <MdModeEdit className={classes.ArrowIcon} />
 
               <div className={classes.detailsFrame}>
                 <div className={classes.details1}>Rsi lenagth : 14</div>
@@ -52,7 +54,7 @@ function StatementView() {
             <div className={classes.timeFrame}>
               <div className={classes.topText}>Duration</div>
               <div className={classes.titleFrame}>4 Periods</div>
-              <HiDotsVertical className={classes.ArrowIcon} />
+              <MdModeEdit className={classes.ArrowIcon} />
 
               <div className={classes.detailsFrame}>
                 <div className={classes.details1}>No Of Periods : 4</div>
@@ -78,7 +80,7 @@ function StatementView() {
             <div className={classes.timeFrame}>
               <div className={classes.topText}>Timeframe</div>
               <div className={classes.titleFrame}>3 Hours</div>
-              <HiDotsVertical className={classes.ArrowIcon} />
+              <TiArrowSortedDown className={classes.ArrowIcon} />
             </div>
 
             {/* <div className={classes.whiteBlock}>Less than</div> */}
@@ -86,7 +88,7 @@ function StatementView() {
             <div className={classes.timeFrame}>
               <div className={classes.topText}>Indicator</div>
               <div className={classes.titleFrame}>RSI</div>
-              <HiDotsVertical className={classes.ArrowIcon} />
+              <MdModeEdit className={classes.ArrowIcon} />
 
               <div className={classes.detailsFrame}>
                 <div className={classes.details1}>Rsi lenagth : 14</div>
@@ -111,7 +113,7 @@ function StatementView() {
             <div className={classes.timeFrame}>
               <div className={classes.topText}>Value</div>
               <div className={classes.titleFrame}>RSI MA</div>
-              <HiDotsVertical className={classes.ArrowIcon} />
+              <MdModeEdit className={classes.ArrowIcon} />
 
               <div className={classes.detailsFrame}>
                 <div className={classes.details1}>No Of Periods : 4</div>
@@ -119,33 +121,32 @@ function StatementView() {
                 <div className={classes.details3}>Include : YES</div>
               </div>
             </div>
+          </div>
 
-            <div className={classes.statmentDetails}>
-              <div className={classes.whiteBlock}>Long</div>
+          <div className={classes.statmentDetails}>
+            <div className={classes.whiteBlock}>Long</div>
 
-              <div className={classes.timeFrame}>
-                <div className={classes.topText}>Stop Loss</div>
-                <div className={classes.titleFrame}>From Low</div>
-                <HiDotsVertical className={classes.ArrowIcon} />
-              </div>
-
-              {/* <div className={classes.whiteBlock}>Less than</div> */}
-
-              <div className={classes.timeFrame}>
-                <div className={classes.topText}>TakeProfit</div>
-                <div className={classes.titleFrame}>From Entry</div>
-                <HiDotsVertical className={classes.ArrowIcon} />
-              </div>
+            <div className={classes.timeFrame}>
+              <div className={classes.topText}>Stop Loss</div>
+              <div className={classes.titleFrame}>From Low</div>
+              <TiArrowSortedDown className={classes.ArrowIcon} />
             </div>
 
-            <input
-              className={classes.componenet}
-              type="text"
-              placeholder="Start Typing A componenet Name"
-              name="inputfield"
-            />
+            {/* <div className={classes.whiteBlock}>Less than</div> */}
 
+            <div className={classes.timeFrame}>
+              <div className={classes.topText}>TakeProfit</div>
+              <div className={classes.titleFrame}>From Entry</div>
+              <TiArrowSortedDown className={classes.ArrowIcon} />
+            </div>
           </div>
+
+          <input
+            className={classes.componenet}
+            type="text"
+            placeholder="Start Typing A componenet Name"
+            name="inputfield"
+          />
         </div>
       </div>
     </div>

@@ -1,10 +1,14 @@
 import classes from "./TopView.module.css";
 
+import { BiSolidRightArrow } from "react-icons/bi";
+
+
 function TopView() {
   return (
     <div className={classes.topView}>
       <div className={classes.headerView}>
         <div className={classes.create}>Create</div>
+        <BiSolidRightArrow className={classes.arrow}/>
         <div className={classes.test}>Test & Optimise</div>
       </div>
 

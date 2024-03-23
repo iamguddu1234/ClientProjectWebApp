@@ -10,13 +10,15 @@
 
 .headerView {
   width: 98%;
-  height: 40px;
+  height: 120%;
+  /* max-height: 60px; */
   background-color: white;
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+  position: relative;
 }
 
 .create {
@@ -80,10 +82,28 @@
   margin-left: 10px;
   border: 1px solid white;
   border-radius: 20px;
-  color: white;
+  color: transparent;
   padding-left: 14px;
   padding-right: 14px;
   padding-top: 6px;
   padding-bottom: 6px;
   font-size: 12px;
+  color: white;
+
+}
+
+.arrow {
+  padding-left: 10px;
+  /* height: 120%; */
+  height: 120%;
+  width: 100%;
+  /* max-height: 54px; */
+  /* object-fit: contain; */
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  color: #b8b8b8;
+  /* border: 1px solid red; */
 }
